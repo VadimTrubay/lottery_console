@@ -1,0 +1,15 @@
+name: lottery_console
+version: 1.0.0
+description: A very helpful lottery console application
+url: https://github.com/VadimTrubay/lottery_console
+author: TrubayVadim
+author_email: vadnetvadnet@ukr.net
+license: MIT
+include_package_data: true
+packages:
+  - find_namespace: lottery_console
+install_requires:
+  - colorama
+entry_points:
+  console_scripts:
+    - lottery_console = lottery_console.main:main
